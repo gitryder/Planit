@@ -1,10 +1,80 @@
 body {
+  /*background-color: #FB6542;*/
+  background-color: tomato;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  margin: -3% 10% 5% 10%;
+  align-content: center;
+  display: flexbox;
+  position: relative;
+}
+
+.header {
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 590%;
+  color: maroon;
+}
+
+.todo-item {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  padding: 8px;
+  font-family: 'Archivo', sans-serif;
+  color: #5a5a5a;
+  font-size: 30px;
+  text-align: left;
+}
+
+.todo-empty {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  padding: 8px;
+  font-family: 'Archivo', sans-serif;
+  color: #5a5a5a;
+  font-size: 55px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  background-color: #777777;
+  border: 0px solid;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  padding: 8px;
+  color: #ffffff;
+  font-family: 'Archivo', sans-serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+.todos-container {
+  margin-top: -55px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
 }
 
 code {
