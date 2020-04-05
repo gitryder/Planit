@@ -1,6 +1,6 @@
 body {
   /*background-color: #FB6542;*/
-  background-color: tomato;
+  background-color: #FFA177;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -20,7 +20,7 @@ body {
   text-align: left;
   font-family: 'Work Sans', sans-serif;
   font-size: 590%;
-  color: maroon;
+  color: #863535;
 }
 
 .todo-item {
