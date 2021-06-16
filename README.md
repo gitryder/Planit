@@ -2,15 +2,22 @@
 * An outstandingly bare-bones To-Do app
 * Built using React.js
 
-## Available Scripts
+<p>
+  <img src="https://i.imgur.com/rehsZki.png" />
+</p>
 
-In the project directory, you can run:
+ 👨‍🔧 Installation
+ ==================
+- Install Yarn
+- Run ```git clone https://github.com/gitryder/Planit```
+- Then run ```cd planit```
+- Finally run ```yarn start```
+    - Runs the app in the development mode.<br />
+    - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+👨‍💻 Developer
+===============
+Built with ❤︎ by Danyl Fernandes
+- Twitter (https://twitter.com/androidanyl)
+- LinkedIn (https://www.linkedin.com/in/danyl-fernandes-5bb706157/)
 
